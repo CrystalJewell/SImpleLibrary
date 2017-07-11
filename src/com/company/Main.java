@@ -11,6 +11,5 @@ public class Main {
         // 5. Test that Library class is working as intended.
         // 6. Allow user input for adding, removing, checking out and returning book.
         // 7. Allow user to see what books the library has, what is available or what is checked out.
-
     }
 }
