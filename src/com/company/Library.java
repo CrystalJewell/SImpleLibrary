@@ -17,8 +17,17 @@ public class Library {
     //Constructor for creating the Library
     public Library () {
         allBooks = new ArrayList<>();
+        setupLibrary();
 
     }
 
+    private void setupLibrary() {
+        //Remember our list holds book objects, so we have to add new books when we're adding to the list
+        allBooks.add(new Book("Hitchhikers Guide to the Galaxy"));
+        allBooks.add(new Book("A Brief History of Time"));
+        allBooks.add(new Book("Harry Potter and The Philosopher's Stone"));
+        allBooks.add(new Book("The Hobbit"));
+    }
 
+    
 }
