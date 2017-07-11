@@ -14,4 +14,20 @@ public class Book {
         title = bookTitle;
         isBorrowed = false;
     }
+
+    //Allows isBorrowed to be set to the opposite of what it currently is
+    public void setBorrowed(boolean borrowed) {
+        isBorrowed = !borrowed;
+    }
+
+    //Gets title of current book
+    public String getTitle() {
+        return title;
+    }
+
+    //Returns if the book is borrowed or not
+    public boolean isBorrowed() {
+        return isBorrowed;
+    }
+    
 }
